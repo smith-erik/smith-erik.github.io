@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(https://fonts.googleapis.com/css?family=roboto.woff);
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.content {
+	width: 800;
+	font-family: "Roboto", "sans-serif";
+} 
+
+.content img {
+	height: auto;
+	width: 100%;
+}
+
+.content h1 {
+	color: #044;
+}
+
+.navlinks {
+	display: inline-block;
+	border: 2px black solid;
+	border-color: #066;
+	border-radius: 8px;
+	padding: 20 10;
+
+}
+.navlinks div:not(#first) {
+	margin-top: 10;
+}
+.navlinks a, .navlinks a:visited {
+	margin-top: 50;
+	text-decoration: none;
+	color: #066;
+}
+.navlinks a:hover { color: #AAA; }
+.navlinks a:active { color: #666; }
+
+.navlinks #hovertext {
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px 30px 30px 60px;
+    padding: 5px 0;
+}
+
+.upcoming {
+	color: #003535;
+}

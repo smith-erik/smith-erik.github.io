@@ -44,13 +44,14 @@
 .navlinks a:hover { color: #AAA; }
 .navlinks a:active { color: #666; }
 
-.navlinks #hovertext {
+.navlinks .hovertext {
     display: none;
     position: fixed;
     overflow: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
+    background-color: #151515;
+    opacity: 0.8;
+    color: #FFF;
     text-align: center;
     border-radius: 20px 30px 30px 60px;
     padding: 5px 0;

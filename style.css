@@ -11,8 +11,12 @@
     text-align: center;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .content {
-    width: 800;
+    width: 600;
     font-family: "Roboto", "sans-serif";
 } 
 

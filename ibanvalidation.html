@@ -1,0 +1,26 @@
+<!DOCTYPE html5>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="content center centered">
+        <div>
+            <h1>IBAN Validation</h1>
+            <p class="justify">The International Bank Account Number, IBAN, consists of up to 34 alphanumeric characters comprising: a country code; two check digits; and a number that includes the domestic bank account number, branch identifier, and potential routing information. The check digits enable a sanity check of the bank account number to confirm its integrity before submitting a transaction.</p>
+        </div>
+        <div>
+            <form name="ibanform" onsubmit="validateIbanForm()">
+                <input type="text" name="iban" size="34"><br>
+                <input type="submit" name="">
+            </form>
+        </div>
+        <div></div>
+
+
+
+</body>
+</html>

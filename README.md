@@ -1,4 +1,4 @@
-# Our Applied Data Analysis Project
+# A Project in Applied Data Analysis
 
 Analysing Trump's tweets.
 

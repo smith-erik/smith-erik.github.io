@@ -1,10 +1,10 @@
 ---
-title: Milestone 1 and 2 plan.
+title: Project Plan
 date: 2017-11-20 12:14:10
 categories: Milestone1 Milestone2 Plan
 ---
 
-# Behind Trump's Tweets
+# Milestone 1 and 2 plan.
 
 This was our original plan. The part added for milestone 2 is at the end.
 

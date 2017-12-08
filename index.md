@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# A Project in Applied Data Analysis
+# Our Project Page
 
 Analysing Trump's tweets. Test 123456.
 

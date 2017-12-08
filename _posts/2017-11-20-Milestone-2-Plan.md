@@ -1,6 +1,6 @@
 ---
 title: Milestone 1 and 2 plan.
-date: 2017-11-20 12:14:10 -0000
+date: 2017-11-20 12:14:10
 categories: Milestone1 Milestone2 Plan
 ---
 

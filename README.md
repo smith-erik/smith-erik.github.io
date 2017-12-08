@@ -1,7 +1,3 @@
----
-title: ADA Project
----
-
 # A Project in Applied Data Analysis
 
 Analysing Trump's tweets. Test

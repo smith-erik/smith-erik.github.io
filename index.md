@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h1> A Project in Applied Data Analysis
+# A Project in Applied Data Analysis
 
-<p>Analysing Trump's tweets. Test 1234.</p>
+Analysing Trump's tweets. Test 123456.
 
-<h2> Posts
+## Posts
 
 <ul>
   {% for post in site.posts %}

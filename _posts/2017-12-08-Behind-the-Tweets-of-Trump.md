@@ -51,6 +51,8 @@ To find some more interesting results, let us instead do the same plot but for t
 * During campaign
 * After campaign (presidency)
 
+![Trump's tweets per hour of day since year 2009.](/assets/hour_periods.png)
+
 We can immediately see some differences between the periods. During the campaign, compared to before and after, we have a much more constant flow of tweets throughout the whole day. The tweets during the campaign even maxes out at night! Before and after the number of tweets decrease as the night approaches, which is in line with our previously mentioned expectation. The stream of tweets into the night during the elecitons is, in hindsight, not a huge suprise. After all, the campaign machinery is expected to run at full steam 24/7.
 
 Note the difference in spike-time between before campaign period and presidency period. It is in the evening for former and during office hours for the latter.
@@ -59,7 +61,7 @@ Note the difference in spike-time between before campaign period and presidency 
 
 The vast majority of Trump's tweets (97%) are from either Android-, iPhone-, or web-based platforms/clients.
 
-![Trump's tweets per hour of day since year 2009.](/assets/hour_of_day.png)
+![Trump's tweets per hour of day since year 2009.](/assets/hour_devices.png)
 
 Web clients are pretty much only used during office hours in the afternoon. Not very suprising. The curves for iPhone and Android are much more interesting though.
 

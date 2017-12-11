@@ -12,7 +12,7 @@ Describe the dataset and what we did. Goals, method, and so on.
 Pretty much rewrite some stuff from the project plan.
 
 <html>
-'<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/3.embed" height="525" width="100%"></iframe>'
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/3.embed" height="525" width="100%"></iframe>
 </html>
 
 

@@ -119,7 +119,7 @@ Compare spike with Trump's tweet amount those couple of weeks.
 Word cloud for Hillary during campaign.
 Note TODO comment on mask and colour in Trump word usage section.
 
-![Wordcloud for Hillary Clinton during campaign.](/assets/hc_proof_of_concept.png)
+![Wordcloud for Hillary Clinton during campaign.](/assets/hc_proof2.png)
 
 
 

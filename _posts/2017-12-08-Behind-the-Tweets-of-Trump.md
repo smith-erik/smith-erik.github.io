@@ -87,7 +87,7 @@ Christian please add your device stuff here. Maybe device vs time to see if he s
 
 > Phrases of interest are phrases such as "Crooked Hillary", "Make America Great Again", and a large proportion of "will" and "people". Note the appearance of "poll" during the election.
 
-![Wordcloud during presidency.](/assets/wc_after.png)
+![Wordcloud during presidency.](/assets/wc_after_color.png)
 
 >The rise of the term "Fake News" is explored thoroughly later. Note the disappearance of Hillary related words.
 

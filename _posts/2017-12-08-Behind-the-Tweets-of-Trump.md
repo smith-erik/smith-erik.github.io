@@ -6,7 +6,7 @@ categories: DataStory Milestone3 DataAnalysis
 
 # Behind Trump's Tweets
 
-## Introduction - Map Test, Remove edit plot button test
+## Introduction - Map Test
 
 Describe the dataset and what we did. Goals, method, and so on.  
 Pretty much rewrite some stuff from the project plan.

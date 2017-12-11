@@ -9,9 +9,7 @@ categories: DataStory Milestone3 DataAnalysis
 ## Introduction
 
 Describe the dataset and what we did. Goals, method, and so on.  
-Pretty much rewrite some stuff from the project plan.
-
-Mention that many of our results compare what we consider the three main periods in Trump's life; before campaign, campaign, presidency.
+Pretty much rewrite some stuff from the project plan. Mention that many of our results compare what we consider the three main periods in Trump's life; before campaign, campaign, presidency.
 
 
 ## Contents
@@ -85,7 +83,7 @@ Christian please add your device stuff here. Maybe device vs time to see if he s
   Change masks and colours to something interesting. Also color words from image. E.g. use shape of Trump's head with "correct" colours for campaign word usage.
 
 
-![Wordcloud during campaign.](/assets/wc_during.png)
+![Wordcloud during campaign.](/assets/dt_proof2.png)
 
 > Phrases of interest are phrases such as "Crooked Hillary", "Make America Great Again", and a large proportion of "will" and "people". Note the appearance of "poll" during the election.
 
@@ -121,7 +119,7 @@ Compare spike with Trump's tweet amount those couple of weeks.
 Word cloud for Hillary during campaign.
 Note TODO comment on mask and colour in Trump word usage section.
 
-![Wordcloud for Hillary Clinton during campaign.](/assets/hc_wc.png)
+![Wordcloud for Hillary Clinton during campaign.](/assets/hc_proof_of_concept.png)
 
 
 

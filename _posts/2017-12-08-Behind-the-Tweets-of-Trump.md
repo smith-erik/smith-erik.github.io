@@ -9,7 +9,11 @@ categories: DataStory Milestone3 DataAnalysis
 ## Introduction
 
 Describe the dataset and what we did. Goals, method, and so on.  
-Pretty much rewrite some stuff from the project plan.  
+Pretty much rewrite some stuff from the project plan.
+
+{% include test.html %}
+
+
 Mention that many of our results compare what we consider the three main periods in Trump's life; before campaign, campaign, presidency.
 
 

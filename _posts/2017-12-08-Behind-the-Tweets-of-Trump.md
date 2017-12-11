@@ -6,20 +6,12 @@ categories: DataStory Milestone3 DataAnalysis
 
 # Behind Trump's Tweets
 
-## Introduction - Map Test
+## Introduction
 
 Describe the dataset and what we did. Goals, method, and so on.  
 Pretty much rewrite some stuff from the project plan.
 
-<html>
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/3.embed?link=false" height="525" width="100%"></iframe>
-</html>
-
-
 Mention that many of our results compare what we consider the three main periods in Trump's life; before campaign, campaign, presidency.
-
-
-{% include map_EU_Unemployment_2016.html %}
 
 
 ## Contents
@@ -34,7 +26,9 @@ Mention that many of our results compare what we consider the three main periods
 
 As a starting point for the general exploration, let us take a look at Trump's total tweets per month has changed since he started tweeting in the middle of year 2009.
 
-![Trump's total tweets per month since year 2009.](/assets/total_month.png)
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/3.embed?link=false" height="525" width="100%"></iframe>
+</html>
 
 Right away we see an (at least for us) rather suprising result. The total tweets per month were not at their highest levels during Trump's presidential campaign: June 16, 2015 to November 9, 2016. Note the sharp decline in tweets right after the election. This lower tweet frequency has remained though Trump's presidency.
 
@@ -47,20 +41,22 @@ The latest data was acquired in the middle of a November, thus the total for Nov
 
 Continuing on with our general exploration, we now look at in what hour of the day Trump's tweets are posted (using the entire dataset from 2009 to present).
 
-![Trump's tweets per hour of day since year 2009.](/assets/hour_of_day.png)  
-> The bar for each hour counts tweets during that hour.  
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/9.embed?link=false" height="525" width="100%"></iframe>
+</html>
+The bar for each hour counts tweets during that hour.  
 E.g. hour 14 counts tweets between 14:00:00 and 14:59:59.
 
 So this look fairly normal, although we expected the frequency to drop off around midnight and not linger into 2 o'clock at night.
-
-> TODO: Could this be due to time zone differences? Check out and comment on this?
 
 To find some more interesting results, let us instead do the same plot but for tree different periods: 
 * Before campaign
 * During campaign
 * After campaign (presidency)
 
-![Trump's tweets per hour of day since year 2009.](/assets/hour_periods.png)
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/15.embed?link=false" height="525" width="100%"></iframe>
+</html>
 
 We can immediately see some differences between the periods. During the campaign, compared to before and after, we have a much more constant flow of tweets throughout the whole day. The tweets during the campaign even maxes out at night! Before and after the number of tweets decrease as the night approaches, which is in line with our previously mentioned expectation. The stream of tweets into the night during the elecitons is, in hindsight, not a huge suprise. After all, the campaign machinery is expected to run at full steam 24/7.
 
@@ -70,7 +66,9 @@ Note the difference in spike-time between before campaign period and presidency 
 
 The vast majority of Trump's tweets (97%) are from either Android-, iPhone-, or web-based platforms/clients.
 
-![Trump's tweets per hour of day since year 2009.](/assets/hour_devices.png)
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/17.embed?link=false" height="525" width="100%"></iframe>
+</html>
 
 Web clients are pretty much only used during office hours in the afternoon. Not very suprising. The curves for iPhone and Android are much more interesting though.
 

@@ -6,17 +6,20 @@ categories: DataStory Milestone3 DataAnalysis
 
 # Behind Trump's Tweets
 
-## Introduction ABC
+## Introduction - Map Test, Remove edit plot button test
 
 Describe the dataset and what we did. Goals, method, and so on.  
 Pretty much rewrite some stuff from the project plan.
 
 <html>
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/3.embed" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/3.embed?link=false" height="525" width="100%"></iframe>
 </html>
 
 
 Mention that many of our results compare what we consider the three main periods in Trump's life; before campaign, campaign, presidency.
+
+
+{% include map_EU_Unemployment_2016.html %}
 
 
 ## Contents

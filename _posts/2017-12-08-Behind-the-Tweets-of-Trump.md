@@ -9,8 +9,7 @@ categories: DataStory Milestone3 DataAnalysis
 ## Introduction
 
 Describe the dataset and what we did. Goals, method, and so on.  
-Pretty much rewrite some stuff from the project plan.  
-Mention that many of our results compare what we consider the three main periods in Trump's life; before campaign, campaign, presidency.
+Pretty much rewrite some stuff from the project plan. Mention that many of our results compare what we consider the three main periods in Trump's life; before campaign, campaign, presidency.
 
 
 ## Contents
@@ -25,33 +24,37 @@ Mention that many of our results compare what we consider the three main periods
 
 As a starting point for the general exploration, let us take a look at Trump's total tweets per month has changed since he started tweeting in the middle of year 2009.
 
-![Trump's total tweets per month since year 2009.](/assets/total_month.png)
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/3.embed?link=false" height="525" width="100%"></iframe>
+</html>
 
 Right away we see an (at least for us) rather suprising result. The total tweets per month were not at their highest levels during Trump's presidential campaign: June 16, 2015 to November 9, 2016. Note the sharp decline in tweets right after the election. This lower tweet frequency has remained though Trump's presidency.
 
 The latest data was acquired in the middle of a November, thus the total for November 2017 is relatively low.
 
->TODO: Check out 2015 spike.
+There is a notable spike in January year 2015. Analysing word usage in Trump's tweets from this month shows a high usage of words and phrases related to [The Celebrity Apprentice](https://en.wikipedia.org/wiki/The_Celebrity_Apprentice), a show Trump hosted until his announcement of candidacy. [Season 14](https://en.wikipedia.org/wiki/The_Apprentice_(U.S._season_14)) of this show aired almost entirely in January 2015, and aired more then 1 and a half years after the previous season. We think that this, combined with Trump perhaps knowing that this would be his last time hosting the show, contributed to a larger amount of tweets about the show than usual and hence towards a larger total amount of tweets that month.
 
 
 ### Distribution by hour of day
 
 Continuing on with our general exploration, we now look at in what hour of the day Trump's tweets are posted (using the entire dataset from 2009 to present).
 
-![Trump's tweets per hour of day since year 2009.](/assets/hour_of_day.png)  
-> The bar for each hour counts tweets during that hour.  
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/9.embed?link=false" height="525" width="100%"></iframe>
+</html>
+The bar for each hour counts tweets during that hour.  
 E.g. hour 14 counts tweets between 14:00:00 and 14:59:59.
 
 So this look fairly normal, although we expected the frequency to drop off around midnight and not linger into 2 o'clock at night.
-
-> TODO: Could this be due to time zone differences? Check out and comment on this?
 
 To find some more interesting results, let us instead do the same plot but for tree different periods: 
 * Before campaign
 * During campaign
 * After campaign (presidency)
 
-![Trump's tweets per hour of day since year 2009.](/assets/hour_periods.png)
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/15.embed?link=false" height="525" width="100%"></iframe>
+</html>
 
 We can immediately see some differences between the periods. During the campaign, compared to before and after, we have a much more constant flow of tweets throughout the whole day. The tweets during the campaign even maxes out at night! Before and after the number of tweets decrease as the night approaches, which is in line with our previously mentioned expectation. The stream of tweets into the night during the elecitons is, in hindsight, not a huge suprise. After all, the campaign machinery is expected to run at full steam 24/7.
 
@@ -61,7 +64,9 @@ Note the difference in spike-time between before campaign period and presidency 
 
 The vast majority of Trump's tweets (97%) are from either Android-, iPhone-, or web-based platforms/clients.
 
-![Trump's tweets per hour of day since year 2009.](/assets/hour_devices.png)
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/17.embed?link=false" height="525" width="100%"></iframe>
+</html>
 
 Web clients are pretty much only used during office hours in the afternoon. Not very suprising. The curves for iPhone and Android are much more interesting though.
 
@@ -74,26 +79,30 @@ Christian please add your device stuff here. Maybe device vs time to see if he s
 
 ### Word Usage
 
-> TODO
-  Change masks and colours to something interesting. Also color words from image. E.g. use shape of Trump's head with "correct" colours for campaign word usage.
+![Wordcloud during campaign.](/assets/dt_proof2.png)
 
+From this we can clearly see that the election is under way. The most used phrases and words are almost exclusively election related. One can see that Hillary was Trump's main opponents; "Hillary Clinton" and the pejorative nickname "Crooked Hillary" are both used a lot more than "Ted Cruz" and "Lyin' Ted" (small, see nose). Other terms of note are appearance of the word "poll" and a mentions several different states like South Carolina, New Hampshire, Wisconsin. The usage of small state names might be far and few between, but compare this to the word cloud for this precidency where they do not appear at all.
 
-![Wordcloud during campaign.](/assets/wc_during.png)
+> "will" is everywhere
 
-> Phrases of interest are phrases such as "Crooked Hillary", "Make America Great Again", and a large proportion of "will" and "people". Note the appearance of "poll" during the election.
+![Wordcloud during presidency.](/assets/wc_after_color.png)
 
-![Wordcloud during presidency.](/assets/wc_after.png)
+In the word cloud from his presidency we first note the disappearance of Hillary related words and the rise of the term "Fake News". This particular phrase is thoroughly explored later. In addition to "Fake News", we also see some interesting new words like "Tax Cut" and "Russia" appear. This is of course due to the numerous Russia related scandals in Trump's cabinet and his controversial new tax policy.
 
->The rise of the term "Fake News" is explored thoroughly later. Note the disappearance of Hillary related words.
+Other things of note are an increased usage of "President" and "country". Also note the appearance of "ObamaCare"; Trump's reform intendend to replace it stirred up the discussion around Obama's health case reform.
 
 ![Wordcloud before campaign.](/assets/wc_before.png)
 
->Here we have mentions of Obama (Obama/president) instead of Hillary.
+> New mask image here, any ideas?
+
+Not suprisingly, between 2009 and Trump's candidacy announcement, Obama is often mentioned. We also see the words like "show" and "CelebApprentice" which are related to the show Trump hosted for many years up until 2015.
+
+We have intentionally avoided mentioning "will" in earlier word clouds, and waited until now to highlight its large relative usage in *all* of our periods. Seems like Trump is always making new promises, not matter what situation he is currently in.
+
 
 ### Geolocation
 
-> TODO: Add this later, check if folium maps work with Jekyll.  
-Might need a plug-in.
+> TODO: Have been mucking around with this, have not managed to get it to work :/
 
 
 
@@ -105,16 +114,10 @@ Might need a plug-in.
 
 ## Hillary Clinton Comparison
 
-
-![Hillary Clinton's total tweets per week during election.](/assets/hc_total_week.png)
-
-Compare spike with Trump's tweet amount those couple of weeks.
+> Redoing the comparison graph for Hillary, will upload later today.
 
 
-Word cloud for Hillary during campaign.
-Note TODO comment on mask and colour in Trump word usage section.
-
-![Wordcloud for Hillary Clinton during campaign.](/assets/hc_wc.png)
+![Wordcloud for Hillary Clinton during campaign.](/assets/hc_proof2.png)
 
 
 

@@ -32,7 +32,7 @@ Right away we see an (at least for us) rather suprising result. The total tweets
 
 The latest data was acquired in the middle of a November, thus the total for November 2017 is relatively low.
 
->TODO: Check out 2015 spike.
+There is a notable spike in January year 2015. Analysing word usage in Trump's tweets from this month shows a high usage of words and phrases related to [The Celebrity Apprentice](https://en.wikipedia.org/wiki/The_Celebrity_Apprentice), a show Trump hosted until his announcement of candidacy. [Season 14](https://en.wikipedia.org/wiki/The_Apprentice_(U.S._season_14)) of this show aired almost entirely in January 2015, and aired more then 1 and a half years after the previous season. We think that this, combined with Trump perhaps knowing that this would be his last time hosting the show, contributed to a larger amount of tweets about the show than usual and hence towards a larger total amount of tweets that month.
 
 
 ### Distribution by hour of day
@@ -79,26 +79,30 @@ Christian please add your device stuff here. Maybe device vs time to see if he s
 
 ### Word Usage
 
-> TODO
-  Change masks and colours to something interesting. Also color words from image. E.g. use shape of Trump's head with "correct" colours for campaign word usage.
-
-
 ![Wordcloud during campaign.](/assets/dt_proof2.png)
 
-> Phrases of interest are phrases such as "Crooked Hillary", "Make America Great Again", and a large proportion of "will" and "people". Note the appearance of "poll" during the election.
+From this we can clearly see that the election is under way. The most used phrases and words are almost exclusively election related. One can see that Hillary was Trump's main opponents; "Hillary Clinton" and the pejorative nickname "Crooked Hillary" are both used a lot more than "Ted Cruz" and "Lyin' Ted" (small, see nose). Other terms of note are appearance of the word "poll" and a mentions several different states like South Carolina, New Hampshire, Wisconsin. The usage of small state names might be far and few between, but compare this to the word cloud for this precidency where they do not appear at all.
+
+> "will" is everywhere
 
 ![Wordcloud during presidency.](/assets/wc_after_color.png)
 
->The rise of the term "Fake News" is explored thoroughly later. Note the disappearance of Hillary related words.
+In the word cloud from his presidency we first note the disappearance of Hillary related words and the rise of the term "Fake News". This particular phrase is thoroughly explored later. In addition to "Fake News", we also see some interesting new words like "Tax Cut" and "Russia" appear. This is of course due to the numerous Russia related scandals in Trump's cabinet and his controversial new tax policy.
+
+Other things of note are an increased usage of "President" and "country". Also note the appearance of "ObamaCare"; Trump's reform intendend to replace it stirred up the discussion around Obama's health case reform.
 
 ![Wordcloud before campaign.](/assets/wc_before.png)
 
->Here we have mentions of Obama (Obama/president) instead of Hillary.
+> New mask image here, any ideas?
+
+Not suprisingly, between 2009 and Trump's candidacy announcement, Obama is often mentioned. We also see the words like "show" and "CelebApprentice" which are related to the show Trump hosted for many years up until 2015.
+
+We have intentionally avoided mentioning "will" in earlier word clouds, and waited until now to highlight its large relative usage in *all* of our periods. Seems like Trump is always making new promises, not matter what situation he is currently in.
+
 
 ### Geolocation
 
-> TODO: Add this later, check if folium maps work with Jekyll.  
-Might need a plug-in.
+> TODO: Have been mucking around with this, have not managed to get it to work :/
 
 
 
@@ -110,14 +114,8 @@ Might need a plug-in.
 
 ## Hillary Clinton Comparison
 
+> Redoing the comparison graph for Hillary, will upload later today.
 
-![Hillary Clinton's total tweets per week during election.](/assets/hc_total_week.png)
-
-Compare spike with Trump's tweet amount those couple of weeks.
-
-
-Word cloud for Hillary during campaign.
-Note TODO comment on mask and colour in Trump word usage section.
 
 ![Wordcloud for Hillary Clinton during campaign.](/assets/hc_proof2.png)
 

@@ -192,7 +192,7 @@ Note that the levels of joy are often low compared to the other emotions, except
 
 For completeness, we report also a simple analysis on al tweets, in order to see which emotions prevail in Trump's tweets.
 
-> TODO: add single vertical barplot (sentiment on all tweets)
+> TODO: add single vertical barplot - sentiment on all tweets
 
 We can see that our assumption that Trump's tweets are generally more positive holds. As we already stated studying the
 topics, the trust emotion is generally the most relevant and joy is the lowest with surprise. The other emotions lay on
@@ -201,18 +201,32 @@ the same level.
 Until this moment, we have seen what are Trump's reactions. But what about his public? We studied the retweet and
 favorite counts on the different topics and this is what we found out.
 
-> TODO: add single vertical barplot number of retweets and favorites in different topics
+> TODO: add single vertical barplot - number of retweets and favorites in different topics
 
-We can clearly observe that the number of retweets and favorites are way higher when they are about Hillary Clinton.
+It's simple to observe that the number of retweets and favorites are way higher when they are about Hillary Clinton.
 These tweets are from 2016 and 2017, so as we know, during the election campaign Trump's tweets reached a very high
 popularity. A further study showed us that every topic with higher levels of retweets and favorites (such as internal
 and foreign politics, interviews and debates) increases these levels during that period.
 Following the same method, we studied the most retweeted and liked emotions, and this led to interesting conclusions.
 
-> TODO: single vertical barplot add number of retweets and favorites for every emotion
+> TODO: single vertical barplot - number of retweets and favorites for every emotion
 
-RIPRENDI DA SENTIMENT OF EVERY TWEET
+In order to conclude the sentiment analysis, we think it would be comprehensive add a final overview of the emotions behind the every tweet.
 
+> TODO: single vertical barplot - average of the emotions on all tweets
+
+We can see that our assumption that Trump's tweets are generally more positive holds. As we already stated studying
+the topics, the trust emotion is generally the most relevant and joy is the lowest with surprise. The other emotions lay
+on the same level.
+
+## Word Usage in topics
+
+As a conclusion of this section of topics and emotions, we want to show you the word usage in every topic. Of course,
+some words were deleted as not interesting (stopwords such as 'the', 'a', 'an', 'one', etc...).
+
+> TODO: multiple horizonalt barplots - word usage of topics
+
+> TODO: think what to say
 
 ## Usage of Fake News
 

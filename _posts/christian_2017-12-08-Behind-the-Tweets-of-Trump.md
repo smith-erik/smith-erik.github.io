@@ -75,11 +75,11 @@ We decided to analyze the main source from which the tweets were sent during cam
 
 For both period we counted the tweets from Iphone and from Android by month. Here below you can see the bar plot for the campaign period (from 2016-02-01 to 2016-11-08):
 
-> TODO: add bar plot 'Tweet source campaign'
+> TODO: add bar plot 'Tweet source campaign' (Christian's notebook In [54])
 
 And here we have the plot for the presidency period (from 2017-01-20 to 2017-11-05):
 
-> TODO: add bar plot 'Tweet source presidency'
+> TODO: add bar plot 'Tweet source presidency' (Christian's notebook In [55])
 
 Surprisingly, it is clear that in March 2017, the president switched completely to iPhone. Obviously this fact cannot be reached by the analysis of the article, because, as we already said, it was published the 9th of August 2016.
 
@@ -135,7 +135,7 @@ We applied the same regex to the tweets of this period and we found 11 matches t
 | "'BuzzFeed Runs Unverifiable Trump-Russia Claims' #FakeNews \nhttps://t.co/d6daCFZHNh"|
 | 'I win an election easily, a great "movement" is verified, and crooked opponents try to belittle our victory with FAKE NEWS. A sorry state!'|
 | 'Intelligence agencies should never have allowed this fake news to "leak" into the public. One last shot at me.Are we living in Nazi Germany?' | 
-| "We had a great News Conference at Trump Tower today. A couple of FAKE NEWS organizations were there but the people truly get what's going on"|  |
+| "We had a great News Conference at Trump Tower today. A couple of FAKE NEWS organizations were there but the people truly get what's going on"|  
 | '.@CNN is in a total meltdown with their FAKE NEWS because their ratings are tanking since election and their credibility will soon be gone!'|
 | 'Totally made up facts by sleazebag political operatives, both Democrats and Republicans - FAKE NEWS! Russia says nothing exists. Probably...'|
 | 'much worse - just look at Syria (red line), Crimea, Ukraine and the build-up of Russian nukes. Not good! Was this the leaker of Fake News?'|
@@ -158,7 +158,7 @@ What we were hoping to find using these intervals was to see if the matched twee
 
 We grouped our matched tweets by week of the year and we count the number of matched tweets in each week, here you can have a clear visualization of our results:
 
-> TODO: insert plot "fake news term usage by week"
+> TODO: insert plot "fake news term usage by week" (Christian's notebook part Fake News, In [7])
 
 The mean of the occurences by week is equal to **_3.14_** and we have two clear peaks with the 26th week and the 39th week. After we saw these values, we decided to focus firstly on the two peaks and then on all the weeks that have the number of matched tweets higher than the mean. In total we considered 14 weeks, and for each of these weeks we have done a research on the tweets of that specific week in order to see if we could obtain a correlation to some specific fact or serious situation linked with president Trump.
 
@@ -394,11 +394,11 @@ These tweets are refer to the Puerto Rico situation during the disaster of the h
 
 In this section we decided to analyze the tweets of the presidency period through the sentiment analysis we developed earlier. We have therefore added to our tweets all the scores obtained for the feelings considered (anger, anticipation, disgust, fear, joy, negative, positive, sadness, surprise, trust). After that, we split our tweets between matched (fake news term used) and not matched. Since the set of non-matched tweets contains more elements than matched tweets, for comparison we took a sample of non-matched tweets to get the same number of items. Finally, for both sets we computed the average of the values of the feelings obtaining the following results:
 
-> TODO: add the two bar plots named (1. "Average of the emotions on tweets with 'fake news' term used, 2. "Average of the emotions on tweets with 'fake news' not term used)
+> TODO: add the two bar plots (Christian's notebook part Fake News, In [11]) named (1. "Average of the emotions on tweets with 'fake news' term used, 2. "Average of the emotions on tweets with 'fake news' not term used)
 
 Below, for clarity, we show that the values of the sample set follow the behavior of the values of the complete set of matched tweets:
 
-> TODO: add the two bar plots named (1. "Average of the emotions on tweets with 'fake news' term not used (complete set), 2. "Average of the emotions on tweets with 'fake news' not term used (sample set))
+> TODO: add the two bar plots named (Christian's notebook part Fake News, In [12]) (1. "Average of the emotions on tweets with 'fake news' term not used (complete set), 2. "Average of the emotions on tweets with 'fake news' not term used (sample set))
 
 Finally, we computed the deltas of the mean values of the sentiments between the matched tweets set and the non matched tweets set (it is a simple subtraction between matched and non matched sets):
 
@@ -429,7 +429,7 @@ By dealing with the issue of fake news, it is natural to ask how many times Trum
 
 Here are our results regarding word usage:
       
-> TODO: add word clouds. Can you do it Erik, thanks. In the end add some quick observation.
+> TODO: add word clouds. Can you do it Erik? It is all prepared in my notebook at the end of the Washington Post part, thanks. In the end add some quick observation.
 
 ### Observations:
 

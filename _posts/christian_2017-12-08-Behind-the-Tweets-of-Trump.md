@@ -429,7 +429,7 @@ By dealing with the issue of fake news, it is natural to ask how many times Trum
 
 Here are our results regarding word usage:
       
-> TODO: add word clouds. Can you do it Erik? It is all prepared in my notebook at the end of the Washington Post part, thanks. In the end add some quick observation.
+> TODO: add word clouds. Can you do it Erik? It is all prepared in my notebook at the end of the Washington Post part. The two dataframe are already prepared in the box After the title "FOR ERIK", in order to load the files you have only to reload the import boxes at the beginning, the box before the "FOR ERIK" title and the box after "FOR ERIK". if you have any problem, tell me. Thanks! In the end add some quick observation.
 
 ### Observations:
 

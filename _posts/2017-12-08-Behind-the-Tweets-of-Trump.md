@@ -239,8 +239,11 @@ some words were deleted as not interesting (stopwords such as 'the', 'a', 'an', 
 
 ![Word usage in the topics.](/assets/L6_border.png)
 
-> TODO: think what to say
-
+We can see that the most used words in every cluster reflect the meaning of the topic. For instance, in business there
+is a lot of usage of the words golf, hotel, ties, tower, shirts (all properties and merchandise of Trump), in interviews
+we can see that the most used words are interview, people, foxnews, job, foxandfriends, and so on for every other topic.
+In shows there are a lot of references about Trump's show Celebrity Apprentice, in China Obama often is quoted as well
+as the oil issue.
 
 
 ## Usage of Fake News

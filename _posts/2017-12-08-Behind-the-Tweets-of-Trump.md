@@ -213,7 +213,7 @@ Until this moment, we have seen what are Trump's reactions. But what about his p
 favorite counts on the different topics and this is what we found out.
 
 <html>
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/27.embed?link=false" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/23.embed?link=false" height="525" width="100%"></iframe>
 </html>
 
 It's simple to observe that the number of retweets and favorites are way higher when they are about Hillary Clinton.

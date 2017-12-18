@@ -251,7 +251,7 @@ For each period we used a simple regex to find the fake news term: "fake news|fa
 After we applied this regex on the specific period we obtained zero matches, in order to be sure we searched only for the word "fake" and the word "news" separately.
 For the word "fake" we obtained four matches that were not related with the "fake news" term and for the word "news" we most of the matches that we had were tweets about cited media like for example @FoxNews. Therefore, we were sure that the "fake news" term did not arise on his twitter account during his campaign period.
 
-### president-elect period (from 2016-11-09 to 2017-01-20)
+### President-Elect period (2016-11-09 to 2017-01-20)
 
 We applied the same regex to the tweets of this period and we found 11 matches that you can see here:
 

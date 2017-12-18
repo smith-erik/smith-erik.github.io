@@ -226,9 +226,11 @@ Following the same method, we studied the most retweeted and liked emotions, and
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/25.embed?link=false" height="525" width="100%"></iframe>
 </html>
 
-As a conclusion to the sentiment analysis, we can see that our assumption that Trump's tweets are generally more positive holds. As we already stated studying
-the topics, the trust emotion is generally the most relevant and joy is the lowest with surprise. The other emotions lay
-on the same level.
+It's interesting to note that the emotions with a negative meaning are the most retweeted and favorited. Even more
+interesting is that the the second last emotion liked by the public is the dominant emotion in Trump's tweets: trust.
+One explanation could be that, as we saw before (for example in Hillary's topic) these emotions (anger, disgust and
+fear) are the ones that characterize politics, especially when it comes to important people, like ex-President Obama and
+her rival during elections.
 
 ## Word Usage in topics
 

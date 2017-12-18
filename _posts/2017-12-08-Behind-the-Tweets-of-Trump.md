@@ -178,7 +178,7 @@ When a word was found in some tweet, its emotions values were added to the stats
 The bar plots displayed below show some curious information that we found.
 
 <html>
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/19.embed?link=false" height="700" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/19.embed?link=false" height="525" width="100%"></iframe>
 </html>
 
 We can see that generally Trump have more positive tweets than negative, he needs people to like him for his business
@@ -272,13 +272,13 @@ We applied the same regex to the tweets of this period and we found 11 matches t
 We noticed that in this 11 tweets the fake news term was related mostly with CNN and Russia. Specially the rise of the term was due to release of a non-verified paper by Buzzfeed containing strong claims about Trump and Russia ties and possibility that Trump could be blackmailed by the Russian governement. The dossier released from Buzzfeed was not recognized as official and president Trump was furious about the easiness of how this information leaked to the public. He over reacted to this leak, attacking the intelligence agencies and trying to discredit the Media. For more information, here you have the story described by the New York Times: [buzzfeed donald trump and russia](https://www.nytimes.com/2017/01/10/business/buzzfeed-donald-trump-russia.html)
 
 
-### presidency period (from 2017-01-20 to 2017-11-05)
+### Presidency Period (2017-01-20 to 2017-11-05)
 
 In this period we found 132 matched tweets with our regex, therefore we decided to deepen our observations grouping our tweets in different intervals in order to see if we can get some useful insights. We used three types of intervals:
 
-1. by Month
-2. by week of the year
-3. by date
+1. Month
+2. Week of the year
+3. Date
 
 What we were hoping to find using these intervals was to see if the matched tweets in a specific interval (specific month, week or date) were related to some critic event linked to president Trump or his administration. We thought that the most interesting interval to use was "by week of the year" and, as you will see this interval gave us the most interesting observations from these matched tweets. Therefore we will start with "by week of the year" interval with a more in-depth analysis. For clarity we will then show our results for the other two intervals.
 
@@ -316,7 +316,7 @@ In this week we have 11 matched tweets, let us show you them:
 |  'We have done a great job with the almost impossible situation in Puerto Rico. Outside of the Fake News or politically motivated ingrates,...'               |
 
 
-### Observations
+#### Observations
 
 The tweets are mostly dealing with the situation in Puerto Rico following the devastation caused by Hurricane Maria. Trump felt attacked becuase his administration was blamed of not taking adequate decisions in order to handle this natural disaster. He has come back to the attention of the media after he accused the mayor of San Juan, Carmen Yulín Cruz (Cruz critized Trump administration about how they wer dealing the complex situation). As we said at the beginning of this part, you can see a link between the usage of the term "fake news" after he is been under accuse or under stress situation. Trump over reacted and he tried to divert attention from the main problem by discrediting the media and by blaming someone else for the accusations that he received. If you want to deepen this story you can find more information in these two articles:
 
@@ -339,7 +339,7 @@ First, let us show you the 6 matches that we have in this week:
 |  "Don't believe the main stream (fake news) media.The White House is running VERY WELL. I inherited a MESS and am in the process of fixing it."             | 
 
 
-### Observations
+#### Observations
 
 All these tweets came after a serious situation caused by new information regarding the Trump's administration connections with Russia. In this week, the national security advisor, Mike Flynn, resignated because it was revealed that he had misled Vice President Mike Pence and other top White House officials about his conversations with the Russian ambassador regarding the sanctions to Russia in December. Trump was unhappy about the fact that US media covered mostly this problem of his administration, therefore he tried to blame the media and the Democrats by saying that all these stories were made up. His accusations find their climax in the tweet in which he indicates various media as enemies of the American people. 
 For more information about these facts you can check the following links:
@@ -362,7 +362,7 @@ In this week we have 4 matches:
 |  'Does anyone notice how the Montana Congressional race was such a big deal to Dems &amp; Fake News until the Republican won? V was poorly covered'        |
 
 
-### Observations:
+#### Observations
 
 All these tweets (expect for the one regarding the Montanta Congressional race) are linked again to another difficult situation for president Trump, namely, the scandal about his son in law Jared Kushner and his ties with the russian government. It was then reported that Jared Kushner had asked the Russian ambassador to create a secret channel with Russia using Russia’s communication systems. The communications were intercepted by US intelligence and then leaked to The Washington Post. President Trump dealt with this problem trying again to label a scandal as a fake news, again he tried to take the focus away from the main problem. If you want to have a clearer view on this topic you can follow the next link:
 
@@ -380,7 +380,7 @@ As done before, here we have the table with the 4 matched tweets in this week:
 |  'Sean Spicer is a wonderful person who took tremendous abuse from the Fake News Media - but his future is bright!'                                   |
 |  'While all agree the U. S. President has the complete power to pardon, why think of that when only crime so far is LEAKS against us.FAKE NEWS'       |
 
-### Observations
+#### Observations
 
 The first two tweets are about a statement of a senior white house official to CNN, regarding a second meeting between Putin and Trump during the G20 for nearly one hour. Another uncomfortable situation for president-elect Trump, who tried again to reduce the importance of the fact. 
 For more information on this story, follow the next link: 
@@ -409,7 +409,7 @@ In the week 34 we found 5 matches:
 |  "General John Kelly is doing a fantastic job as Chief of Staff. There is tremendous spirit and talent in the W.H. Don't believe the Fake News"       |
 
 
-### Observations
+#### Observations
 
 In the first 4 tweets (expect for the Tweet about john Kelly) Trump tried to defend himself from all the critics received by the media and politicians for his statements regarding the Charlottesville tragedy. Mostly because in his first speech after the tragedy, Trump lacked in condemning directly the alt-right groups and for this reason he was accused from several sides. More specific, in the first tweet, Trump praised Jerry Falwell — a conservative evangelical leader, president of Liberty's university - for his support after Trump's speech about Charlottesville. In the fourth tweet, Trump tried to defend himself by saying that he uses different tones or mood for each specific speech. Once again, a difficult situation prompted him to over react and to undersize his mistakes by blaming again the "unfair" coverage of the media. If you want to have more information about these stories, check these links that we suggest you:
 
@@ -438,7 +438,7 @@ This is the last week that we will show with our observations, we have 6 matched
 |  'Rex Tillerson never threatened to resign. This is Fake News put out by @NBCNews. Low news and reporting standards. No verification from me.'         |
 
 
-### Observations
+#### Observations
 
 Most of these tweet concern the claims and article about the Secretary of State Rex Tillerson, namely that he thought about quitting is role and that he called the president "a moron", as reported in the following article of NBC news: [Tillerson’s Fury at Trump Required an Intervention From Pence](https://www.nbcnews.com/politics/white-house/tillerson-s-fury-trump-required-intervention-pence-n806451)
 
@@ -490,7 +490,7 @@ Let us first show you the tweets that we have found:
 |  "The Fake News Media will not talk about the importance of the United Nations Security Council's 15-0 vote in favor of sanctions on N. Korea!"   |
 
 
-### Observations
+#### Observations
 
 In this day, president trump attacked again the media after Deputy Attorney General Rod J. Rosenstein told that if the special consuel for the Russian sabotage of USA 2016 election finds evidence of crimes, the consuel can investigate them. This fact of course made some pressure for president Trump, who decided again to blame the media (this time accused of trying to weaken up the support for the president) in order to reassure his position and hide the main problem.
 
@@ -516,7 +516,7 @@ In this day we have the following matched tweets:
 |  'In analyzing the Alabama Primary race,FAKE NEWS always fails to mention that the candidate I endorsed went up MANY points after endorsement!'        |
 
 
-### Observations:
+#### Observations
 
 These tweets are refer to the Puerto Rico situation during the disaster of the hurricane Maria. We have already covered this story when we discussed the results for the [39th week of the year](#Week-39th-(from-September-25,-2017-to-October-1,-2017)).
 
@@ -553,7 +553,7 @@ Finally, we computed the deltas of the mean values of the sentiments between the
 | trust	        |  -0.477273 |
 
 
-### Observations:
+#### Observations
 
 From this simple comparison, using the sentiment classification that we have created in the sentiment analysis paragraph, we can spot that the set of tweets containing the 'fake news' term follows a negative trend, namely, all the mean values of the sentiment labels that can be considered negative sentiments ( anger, disgust, fear, negative, sadness) have a greater value compared to the set of tweets without the 'fake news' term; and the sentiment labels that can be seen as positive or neutral sentiments (anticipation, joy, positive, surprise, trust) have a fewer value compared to the set of tweets that do not contain the 'fake news' term. (ADD OBSERVATION ON RELIABILITY, have to ask to Lorenzo).
 
@@ -575,11 +575,7 @@ Here are our results regarding word usage:
 ![Word cloud from not checked tweets.](/assets/not_checked.png)
 
 
-
-#### Observations
-
-> TODO: Write something small.
-
+*Fake News* appears in both categories, althogh relativly more in the fact checked tweets. The most noticable difference presence of *healthcare* in the fact checked tweets versus *foxandfriends* in the non-checked. Interestingly enough, *Russia* has the same relative use in both categories.
 
 
 ## Hillary Clinton Comparison

@@ -69,7 +69,7 @@ Web clients are pretty much only used during office hours in the afternoon. Not 
 It does not seem like Trump use one brand during work and another during time off. No, if thas was the case then the curves for iPhone and Android would appear to "trade places" in some time interval during the day. Trump does not alternate in a consistent manner between iPhone and Android; the iPhone tweets continue in the evening as the Android ones are in sharp decline.
 This discrepancy in device usage is interesting and will be explored further later.
 
-*Hypothesis: Trump switches between web and android and staff is iPhone. 
+*Hypothesis: Trump switches between web and android and staff is iPhone.*
 
 We decided to analyze the main source from which the tweets were sent during campaign period and the presidency period. We decided to do it in order to see if there is a major change in the source usage from the results obtained in the [article](http://varianceexplained.org/r/trump-tweets/) already cited. This is because the article was published on the 9th of August 2016.
 
@@ -433,7 +433,7 @@ Here are our results regarding word usage:
 
 ### Observations:
 
-> TODO:
+> TODO: Something
       
     
       

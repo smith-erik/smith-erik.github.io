@@ -8,15 +8,15 @@ categories: DataStory Milestone3 DataAnalysis
 
 ## Introduction
 
-Describe the dataset and what we did. Goals, method, and so on.  
-Pretty much rewrite some stuff from the project plan. Mention that many of our results compare what we consider the three main periods in Trump's life; before campaign, campaign, presidency.
+This is a data story walking you through a thorough exploration of [Donald Trump's Tweets](https://twitter.com/realdonaldtrump).
 
+We begin with a general analysis of Trump's tweets, where we do some basic word usage analysis and explore the tweet frequency, device, and location. We then move on to automatically dividing tweets into topics, and doing sentiment analysis on the tweets. An exploration of Trump's usage of the phrase "Fake News" follows. Lastly, we do a small general comparison of Hillary Clinton's and Trump's tweets.
 
 ## Contents
 1. [General Exploration](#general-exploration)
 2. [Topic Detection](#topic-detection)
 3. [Sentiment Analysis](#sentiment-analysis)
-4. [Usage of Fake News](#sentiment-analysis)
+4. [Usage of Fake News](#usage-of-fake-news)
 5. [Hillary Clinton Comparison](#hillary-clinton-comparison)
 
 

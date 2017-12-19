@@ -266,7 +266,7 @@ For this task we decided to consider three different period of time in order to 
 
 For each period we used a simple regex to find the fake news term: "fake news|fakenews" without case sensitive. 
 After we applied this regex on the specific period we obtained zero matches, in order to be sure we searched only for the word "fake" and the word "news" separately.
-For the word "fake" we obtained four matches that were not related with the "fake news" term and for the word "news" we most of the matches that we had were tweets about cited media like for example @FoxNews. Therefore, we were sure that the "fake news" term did not arise on his twitter account during his campaign period.
+For the word "fake" we obtained four matches that were not related with the "fake news" term and for the word "news" most of the matches that we had were tweets about cited media like for example @FoxNews. Therefore, we were sure that the "fake news" term did not arise on his twitter account during his campaign period.
 
 ### President-Elect period (2016-11-09 to 2017-01-20)
 
@@ -307,7 +307,7 @@ We grouped our matched tweets by week of the year and we count the number of mat
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/39.embed?link=false" height="525" width="100%"></iframe>
 </html>
 
-The mean of the occurences by week is equal to **_3.14_** and we have two clear peaks with the 26th week and the 39th week. After we saw these values, we decided to focus firstly on the two peaks and then on all the weeks that have the number of matched tweets higher than the mean. In total we considered 14 weeks, and for each of these weeks we have done a research on the tweets of that specific week in order to see if we could obtain a correlation to some specific fact or serious situation linked with president Trump.
+The mean of the occurences by week is equal to **_3.14_** and we have two clear peaks with the 26th week and the 39th week. After we saw these values, we decided to focus on all the weeks that have the number of matched tweets higher than the mean. In total we considered 14 weeks, and for each of these weeks we have done a research on the tweets of that specific week in order to see if we could obtain a correlation to some specific fact or serious situation linked with president Trump.
 
 For the sake of clarity and conciseness, we decided to show you the most interesting weeks that we found among the 14 weeks that we have analyzed. That being said, we can say that for each of all the 14 weeks that we have considered, the main point that we have found is that president Trump uses the "fake news" term when he or his administration is in difficult or stressful situations or under accuse for their actions. He uses these tweets in order to downsize the graveness of the situation, giving to his followers his own interpretation of facts and trying to reduce the trust on the media that he does not approve.
 
@@ -408,7 +408,7 @@ The third tweet concerns the resignation of White House press secretary Sean Spi
 
 * From the New York times: [Sean Spicer Resigns as White House Press Secretary](https://www.nytimes.com/2017/07/21/us/politics/sean-spicer-resigns-as-white-house-press-secretary.html)
 
-The last tweet come out one day after the breaking news from the Washington Post about Attorney General Jeff Sessions's meetings with the Russian ambassador during the 2016 presidential election. President Trump not only labeled all this story a Fake news, but he also mentioned his power of Pardon. A serious claim from president Trump, because here is main point was to explicitly let everyone know the power that he can use in this special case. Once again, we can notice that an uncomfortable situation for Trump led the president to protect himself using the "fake news" term to resize the seriousness of the problem. You can have in depth information in the following article: 
+The last tweet come out one day after the breaking news from the Washington Post about Attorney General Jeff Sessions's meetings with the Russian ambassador during the 2016 presidential election. President Trump not only labeled all this story a Fake news, but he also mentioned his power of Pardon. A serious claim from president Trump, because here his main point was to explicitly let everyone know the power that he can use in this special case. Once again, we can notice that an uncomfortable situation for Trump led the president to protect himself using the "fake news" term to resize the seriousness of the problem. You can have in depth information in the following article: 
 
 * From CNN. [Trump tweets mention his 'complete power' to pardon and bemoan 'leaks'](http://edition.cnn.com/2017/07/22/politics/trump-tweets-pardon-powers/index.html)
 
@@ -457,7 +457,7 @@ This is the last week that we will show with our observations, we have 6 matched
 
 #### Observations
 
-Most of these tweet concern the claims and article about the Secretary of State Rex Tillerson, namely that he thought about quitting is role and that he called the president "a moron", as reported in the following article of NBC news: [Tillerson’s Fury at Trump Required an Intervention From Pence](https://www.nbcnews.com/politics/white-house/tillerson-s-fury-trump-required-intervention-pence-n806451)
+Most of these tweets concern the claims and the article about the Secretary of State Rex Tillerson, namely that he thought about quitting his role and that he called the president "a moron", as reported in the following article of NBC news: [Tillerson’s Fury at Trump Required an Intervention From Pence](https://www.nbcnews.com/politics/white-house/tillerson-s-fury-trump-required-intervention-pence-n806451)
 
 Trump reacted to these difficult situations, he denied all the claims saying that everything is fine with Tillerson and, as usual, he classified the media again as fake news because of this stories.
 
@@ -535,7 +535,7 @@ In this day we have the following matched tweets:
 
 #### Observations
 
-These tweets are refer to the Puerto Rico situation during the disaster of the hurricane Maria. We have already covered this story when we discussed the results for the [39th week of the year](#Week-39th-(from-September-25,-2017-to-October-1,-2017)).
+These tweets refer to the Puerto Rico situation during the disaster of the hurricane Maria. We have already covered this story when we discussed the results for the [39th week of the year](#Week-39th-(from-September-25,-2017-to-October-1,-2017)).
 
 
 
@@ -572,13 +572,13 @@ Finally, we computed the deltas of the mean values of the sentiments between the
 
 #### Observations
 
-From this simple comparison, using the sentiment classification that we have created in the sentiment analysis paragraph, we can spot that the set of tweets containing the 'fake news' term follows a negative trend, namely, all the mean values of the sentiment labels that can be considered negative sentiments ( anger, disgust, fear, negative, sadness) have a greater value compared to the set of tweets without the 'fake news' term; and the sentiment labels that can be seen as positive or neutral sentiments (anticipation, joy, positive, surprise, trust) have a fewer value compared to the set of tweets that do not contain the 'fake news' term. (ADD OBSERVATION ON RELIABILITY, have to ask to Lorenzo).
+From this simple comparison, using the sentiment classification that we have created in the sentiment analysis paragraph, we can spot that the set of tweets containing the 'fake news' term follows a negative trend, namely, all the mean values of the sentiment labels that can be considered negative sentiments ( anger, disgust, fear, negative, sadness) have a greater value compared to the set of tweets without the 'fake news' term; and the sentiment labels that can be seen as positive or neutral sentiments (anticipation, joy, positive, surprise, trust) have a fewer value compared to the set of tweets that do not contain the 'fake news' term. 
 
 
 
 ## Washington Post dataset of debunked Trump's claims
 
-By dealing with the issue of fake news, it is natural to ask how many times Trump has not been accurate in expressing facts and truths. Therefore, in our research, one of our goals was to understand if it was possible to find a source that had fact-checked some Trump statements. Our research was successful thanks to a dataset prepared by the Washington Post in which Trump's untruthful statements during his presidency are analyzed and corrected. The statements were taken from various sources, mainly from interviews, press statements and tweets. So we got all the data from the site related to the tweets, then we decided to derive a word usage from the fact-checked tweets and the rest of his tweets during the presidency trying to find some interesting difference between these two groups of tweets.
+By dealing with the issue of fake news, it is natural to ask how many times Trump has not been accurate in expressing facts and truths. Therefore, in our research, one of our goals was to understand if it was possible to find a source that had fact-checked some Trump statements. Our research was successful thanks to a [dataset prepared by the Washington Post](https://www.washingtonpost.com/graphics/politics/trump-claims-database/?utm_term=.e3895bf3f60d) in which Trump's untruthful statements during his presidency are analyzed and corrected. The statements were taken from various sources, mainly from interviews, press statements and tweets. So we got all the data from the site related to the tweets, then we decided to derive a word usage from the fact-checked tweets and the rest of his tweets during the presidency trying to find some interesting difference between these two groups of tweets.
 
 Here are our results regarding word usage:
       

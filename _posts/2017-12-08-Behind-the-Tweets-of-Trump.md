@@ -99,9 +99,7 @@ In the word cloud from his presidency we first note the disappearance of Hillary
 
 Other things of note are an increased usage of "President" and "country". Also note the appearance of "ObamaCare"; Trump's reform intendend to replace it stirred up the discussion around Obama's health case reform.
 
-![Wordcloud before campaign.](/assets/wc_before.png)
-
-> New mask image here, any ideas?
+![Wordcloud before campaign.](/assets/wc_before_color.png)
 
 Not suprisingly, between 2009 and Trump's candidacy announcement, Obama is often mentioned. We also see the words like "show" and "CelebApprentice" which are related to the show Trump hosted for many years up until 2015.
 
@@ -110,7 +108,11 @@ We have intentionally avoided mentioning "will" in earlier word clouds, and wait
 
 ### Geolocation
 
-> TODO: Have been mucking around with this, have not managed to get it to work :/
+Some of the tweets from the election are geotagged. Let us make a quick choropleth over number of geotags, state-wise.
+
+![Geotagged Tweets During Campaign](/assets/trump_map.png)
+
+The results are as expected; there is a clear connection between [Swing States](https://en.wikipedia.org/wiki/Swing_state) and number of times geotagged.
 
 
 

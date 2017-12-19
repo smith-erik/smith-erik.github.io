@@ -22,7 +22,7 @@ We begin with a general analysis of Trump's tweets, where we do some basic word 
 
 ## General Exploration
 
-As a starting point for the general exploration, let us take a look at Trump's total tweets per month has changed since he started tweeting in the middle of year 2009.
+As a starting point for the general exploration, let us take a look at how Trump's total tweets per month has changed since he started tweeting in the middle of year 2009.
 
 <html>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/3.embed?link=false" height="525" width="100%"></iframe>
@@ -42,8 +42,8 @@ Continuing on with our general exploration, we now look at in what hour of the d
 <html>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/9.embed?link=false" height="525" width="100%"></iframe>
 </html>
-The bar for each hour counts tweets during that hour.  
-E.g. hour 14 counts tweets between 14:00:00 and 14:59:59.
+
+(The bar for each hour counts tweets posted that hour; e.g. 14:00 counts tweets between 14:00 and 14:59.)
 
 So this look fairly normal, although we expected the frequency to drop off around midnight and not linger into 2 o'clock at night.
 
@@ -58,11 +58,11 @@ To find some more interesting results, let us instead do the same plot but for t
 
 We can immediately see some differences between the periods. During the campaign, compared to before and after, we have a much more constant flow of tweets throughout the whole day. The tweets during the campaign even maxes out at night! Before and after the number of tweets decrease as the night approaches, which is in line with our previously mentioned expectation. The stream of tweets into the night during the elecitons is, in hindsight, not a huge suprise. After all, the campaign machinery is expected to run at full steam 24/7.
 
-Note the difference in spike-time between before campaign period and presidency period. It is in the evening for former and during office hours for the latter.
+Note the difference in spike-time between the before campaign period and the presidency period. It is in the evening for former and during office hours for the latter.
 
 #### Comparision by source device
 
-The vast majority of Trump's tweets (97%) are from either Android-, iPhone-, or web-based platforms/clients.
+The vast majority of Trump's tweets (97%) are from either Android, iPhone, or web-based platforms/clients.
 
 <html>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/17.embed?link=false" height="525" width="100%"></iframe>
@@ -70,7 +70,7 @@ The vast majority of Trump's tweets (97%) are from either Android-, iPhone-, or 
 
 Web clients are pretty much only used during office hours in the afternoon. Not very suprising. The curves for iPhone and Android are much more interesting though.
 
-It does not seem like Trump use one brand during work and another during time off. No, if thas was the case then the curves for iPhone and Android would appear to "trade places" in some time interval during the day. Trump does not alternate in a consistent manner between iPhone and Android; the iPhone tweets continue in the evening as the Android ones are in sharp decline.
+It does not seem like Trump use one brand during work and another during time off. No, if thas was the case, then the curves for iPhone and Android would appear to "trade places" in some time interval during the day. Trump does not alternate in a consistent manner between iPhone and Android; the iPhone tweets continue in the evening as the Android ones are in sharp decline.
 
 To further explore this, we compare the number of tweets from Android and iPhone during the election.
 
@@ -78,9 +78,9 @@ To further explore this, we compare the number of tweets from Android and iPhone
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/45.embed?link=false" height="525" width="100%"></iframe>
 </html>
 
-The tweets from iPhone peaks during October year 2016, the month before election day (November 8, 2016). It seems reasonable to assume that the month leading up to the election more tweets will written by campaign staff, most of whom seemingly use iPhones.
+The tweets from iPhone peaks during October year 2016, the month before election day (November 8, 2016). It seems reasonable to assume that the month leading up to the election more tweets will be written by campaign staff, most of whom seemingly use iPhones.
 
-As a closing note on the source devices we would like to point out that there has been no tweets from an Android device since March year 2017. This could be interpreted as Trump replacing his Android with an iPhone. 
+As a closing note on the source devices we would like to point out that there has been no tweets from an Android device since March 2017. This could be interpreted as Trump replacing his Android with an iPhone. 
 
 <html>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/47.embed?link=false" height="525" width="100%"></iframe>
@@ -89,30 +89,36 @@ As a closing note on the source devices we would like to point out that there ha
 
 ### Word Usage
 
+#### During the campaign
+
 ![Wordcloud during campaign.](/assets/dt_proof2.png)
 
-From this we can clearly see that the election is under way. The most used phrases and words are almost exclusively election related. One can see that Hillary was Trump's main opponents; "Hillary Clinton" and the pejorative nickname "Crooked Hillary" are both used a lot more than "Ted Cruz" and "Lyin' Ted" (small, see nose). Other terms of note are appearance of the word "poll" and a mentions several different states like South Carolina, New Hampshire, Wisconsin. The usage of small state names might be far and few between, but compare this to the word cloud for this precidency where they do not appear at all.
+From this we can clearly see that the election is under way. The most used phrases and words are almost exclusively election related. One can see that Hillary was Trump's main opponent; "Hillary Clinton" and the pejorative nickname "Crooked Hillary" are both used a lot more than "Ted Cruz" and "Lyin' Ted" (small, see "nose"). Other terms of note are appearance of the word "poll" and a mentions several different states like South Carolina, New Hampshire, Wisconsin. The usage of state names might be far and few between, but compare this to the word cloud below (presidency) where they do not appear at all.
+
+#### During presidency
 
 ![Wordcloud during presidency.](/assets/wc_after_color.png)
 
-In the word cloud from his presidency we first note the disappearance of Hillary related words and the rise of the term "Fake News". This particular phrase is thoroughly explored later. In addition to "Fake News", we also see some interesting new words like "Tax Cut" and "Russia" appear. This is of course due to the numerous Russia related scandals in Trump's cabinet and his controversial new tax policy.
+In the word cloud from his presidency we first note the disappearance of Hillary related words and the rise of the term "Fake News". The usage of this particular phrase is thoroughly explored later. In addition to "Fake News", we also see some interesting new words like "Tax Cut" and "Russia" appear. This is of course due to the numerous Russia related scandals in Trump's cabinet and his controversial new tax policy.
 
-Other things of note are an increased usage of "President" and "country". Also note the appearance of "ObamaCare"; Trump's reform intendend to replace it stirred up the discussion around Obama's health case reform.
+Other things of note are an increased usage of "President" and "country". Also note the appearance of "ObamaCare"; Trump's reform intendend to replace it stirred up the discussion around Obama's health care reform.
+
+#### Before campaign
 
 ![Wordcloud before campaign.](/assets/wc_before_color.png)
 
-Not suprisingly, between 2009 and Trump's candidacy announcement, Obama is often mentioned. We also see the words like "show" and "CelebApprentice" which are related to the show Trump hosted for many years up until 2015.
+Not suprisingly, between 2009 and Trump's candidacy announcement, Obama is often mentioned. We also see the words like "show" and "CelebApprentice" which are related to [the show](https://en.wikipedia.org/wiki/The_Celebrity_Apprentice) Trump hosted for many years up until 2015.
 
 We have intentionally avoided mentioning "will" in earlier word clouds, and waited until now to highlight its large relative usage in *all* of our periods. Seems like Trump is always making new promises, not matter what situation he is currently in.
 
 
 ### Geolocation
 
-Some of the tweets from the election are geotagged. Let us make a quick choropleth over number of geotags, state-wise.
+Some of the tweets from the election are geotagged. Let us make a quick choropleth map over number of geotags, state-wise.
 
 ![Geotagged Tweets During Campaign](/assets/trump_map.png)
 
-The results are as expected; there is a clear connection between [Swing States](https://en.wikipedia.org/wiki/Swing_state) and number of times geotagged.
+The results are as expected; there is a connection between [Swing States](https://en.wikipedia.org/wiki/Swing_state) and number of times geotagged. The large amount of tags in Ohio is probably due to the [2016 RNC](https://en.wikipedia.org/wiki/2016_Republican_National_Convention).
 
 
 
@@ -598,13 +604,13 @@ Here are our results regarding word usage:
 ## Hillary Clinton Comparison
 
 
-Here is a wordcloud from Hillary's word usage during the campaign.
+Here is a wordcloud from Hillary's word usage during the 2016 presidential campaign.
 
 ![Wordcloud for Hillary Clinton during campaign.](/assets/hc_proof2.png)
 
-There are some clear differences from Trump's wordclouds in the beginning of this post. She uses words like *women* and *families*, which are not visible in Trump's wordclouds. Hillary also uses *will* relatively less and *need* and *want* relatively more.
+There are some clear differences from Trump's wordclouds in the beginning of this post. She uses words like *women* and *families*, which are not visible in Trump's wordclouds. Hillary also uses *will* relatively less and *need* and *want* relatively more. We also see the appearance of human rights related words as *every* and *right*.
 
-As a final comparison, we plot the number of tweets per week for 2016 and see if we can spot some differences.
+As a final comparison, we plot the number of tweets per week for 2016 and see if we can spot some differences between Hillary's and Trump's tweet frequency.
 
 <html>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/49.embed?link=false" height="525" width="100%"></iframe>
@@ -614,3 +620,8 @@ The spike in Hillary's tweets in week 38 arises due to the [Democratic National 
 
 
 
+## Data Source And Code
+
+Our notebook with our code can be viewed [here](https://nbviewer.jupyter.org/github/christian-5-28/ADA-Sciuto-Smith-Tarantino/blob/master/Project/Milestone_3_christian_notebook.ipynb).
+
+For the data used, explore the GitHub folder containing the notebook.

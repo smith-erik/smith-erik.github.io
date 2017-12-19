@@ -622,6 +622,6 @@ The spike in Hillary's tweets in week 38 arises due to the [Democratic National 
 
 ## Data Source And Code
 
-Our notebook with our code can be viewed [here](https://nbviewer.jupyter.org/github/christian-5-28/ADA-Sciuto-Smith-Tarantino/blob/master/Project/Milestone_3_christian_notebook.ipynb).
+Our notebook with our code can be viewed [here](https://nbviewer.jupyter.org/github/christian-5-28/ADA-Sciuto-Smith-Tarantino/blob/master/Project/Milestone_3_notebook.ipynb).
 
 For the data used, explore the GitHub folder containing the notebook.

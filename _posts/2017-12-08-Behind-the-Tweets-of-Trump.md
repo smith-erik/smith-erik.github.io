@@ -444,7 +444,7 @@ In the first 4 tweets (expect for the Tweet about john Kelly) Trump tried to def
 
 The last tweet is a response to the article published by the washington Post where it was reported that there were some misunderstandings and frictions between Trump and his new chief of staff, John Kelly. Again, a trouble in the white House administration reported to the public pushed president Trump to deny everything, suggesting to his followers not to believe the "Fake News" media. You can find the full story here:
 
-* from Business Insider: [Trump fires back at report that says his friends 'fear' he's 'on an inevitable collision course' with his chief of staff](More info: http://www.businessinsider.com/trump-john-kelly-washington-post-2017-9)
+* from Business Insider: [Trump fires back at report that says his friends 'fear' he's 'on an inevitable collision course' with his chief of staff](http://www.businessinsider.com/trump-john-kelly-washington-post-2017-9)
 
 
 ### Week 40 (from October 2, 2017 to October 8, 2017)

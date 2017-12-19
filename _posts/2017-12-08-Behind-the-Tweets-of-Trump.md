@@ -71,10 +71,20 @@ The vast majority of Trump's tweets (97%) are from either Android-, iPhone-, or 
 Web clients are pretty much only used during office hours in the afternoon. Not very suprising. The curves for iPhone and Android are much more interesting though.
 
 It does not seem like Trump use one brand during work and another during time off. No, if thas was the case then the curves for iPhone and Android would appear to "trade places" in some time interval during the day. Trump does not alternate in a consistent manner between iPhone and Android; the iPhone tweets continue in the evening as the Android ones are in sharp decline.
-This discrepancy in device usage is interesting and will be explored further later.
 
-*Hypothesis: Trump switches between web and android and staff is iPhone.  
-Christian please add your device stuff here. Maybe device vs time to see if he stops/start using one of the devices?*
+To further explore this, we compare the number of tweets from Android and iPhone during the election.
+
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/45.embed?link=false" height="525" width="100%"></iframe>
+</html>
+
+The tweets from iPhone peaks during October year 2016, the month before election day (November 8, 2016). It seems reasonable to assume that the month leading up to the election more tweets will written by campaign staff, most of whom seemingly use iPhones.
+
+As a closing note on the source devices we would like to point out that there has been no tweets from an Android device since March year 2017. This could be interpreted as Trump replacing his Android with an iPhone. 
+
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/47.embed?link=false" height="525" width="100%"></iframe>
+</html>
 
 
 ### Word Usage
@@ -585,10 +595,20 @@ Here are our results regarding word usage:
 
 ## Hillary Clinton Comparison
 
-> Redoing the comparison graph for Hillary, will upload later today.
 
+Here is a wordcloud from Hillary's word usage during the campaign.
 
 ![Wordcloud for Hillary Clinton during campaign.](/assets/hc_proof2.png)
+
+There are some clear differences from Trump's wordclouds in the beginning of this post. She uses words like *women* and *families*, which are not visible in Trump's wordclouds. Hillary also uses *will* relatively less and *need* and *want* relatively more.
+
+As a final comparison, we plot the number of tweets per week for 2016 and see if we can spot some differences.
+
+<html>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~smith-erik/49.embed?link=false" height="525" width="100%"></iframe>
+</html>
+
+The spike in Hillary's tweets in week 38 arises due to the [Democratic National Convention](https://en.wikipedia.org/wiki/2016_Democratic_National_Convention) taking place that week. Interestingly, we do not see as large a spike in Trump's tweets during the [Republican National Convention](https://en.wikipedia.org/wiki/2016_Republican_National_Convention) which took place in week 29 of 2016.
 
 
 
